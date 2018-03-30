@@ -51,17 +51,18 @@ public class Customer {
 					String.valueOf(thisAmount) + "\n";
 			totalAmount += thisAmount;
 		}
-		result += "Amount owed is " + String.valueOf(totalAmount) +
-				"\n";
-		result += "You earned " + String.valueOf(frequentRenterPoints)
-		+
-		" frequent renter points";
+//		result += "Amount owed is " + String.valueOf(totalAmount) +
+//				"\n";
+//		result += "You earned " + String.valueOf(frequentRenterPoints)
+//		+
+//		" frequent renter points";
+		result = String.valueOf(totalAmount) ;
 		return result;
 	}
 	
 	public static void main(String[] args) {
 		
-		Movie movie1 = new Movie("Transformers",3);
+		Movie movie1 = new Movie("Transformers",2);
 		Rentals rental1= new Rentals(movie1, 2);
 		
 		Movie movie2 = new Movie("Third Eye",2);
