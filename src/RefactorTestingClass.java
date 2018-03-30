@@ -17,5 +17,4 @@ public class RefactorTestingClass {
 		String result=customer.statement();
 		assertEquals(result, "3.0");		
 	}
-
 }
